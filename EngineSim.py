@@ -1,8 +1,11 @@
 # File: EngineSim.py
 # Name: Micah Nissly
 # Description:
-#	This program sizes tanks for use in a liquid-propelled rocket. The code was
-#	developed from a script written by PSAS.
+#	This program performs calculations for propulsion system sizing based on 
+#	preliminary prupulsion data. Uses a mass model of the system to determine
+#	the CG of the system as a function of time. Outputs a series of engine files
+#	in a text document for use in OpenRocket. Code was developed from a script 
+#	written by the Portland State Aerospace Society.
 
 # FUNCTIONS ------------------------------------------------------------------#
 def tankLength(m,r,rho): # determines necessary tank length based on propellant masses
